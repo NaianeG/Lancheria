@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "typescript-config/is-valid": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "background-color: hwb(40 20% 77%)",
+          "-webkit-text-size-adjust"
+        ]
+      }
+    ]
+  }
+}

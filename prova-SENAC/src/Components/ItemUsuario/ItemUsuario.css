@@ -1,0 +1,16 @@
+.resumo-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto; /* Mover para a direita */
+  margin-right: px; /* Espaçamento à direita, ajuste conforme necessário */
+}
+
+.resumo-tabela th,
+.resumo-tabela td {
+  border: 1px solid gold;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}

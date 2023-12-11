@@ -1,0 +1,61 @@
+  UsuarioInputs form {
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .UsuarioInputs form div {
+    display: flex;
+      flex-direction: column;
+      align-items: center; 
+      margin-top: 8px;
+  }
+
+  .UsuarioInputs{
+      display: flex;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: left !important;
+  }
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+
+
+  .buttonUsuario{
+    background-color: #00A8CC;
+    color: white;
+    font-size: 15px;
+    font-weight: 450;
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: center ;
+
+  
+  }
+
+
+  .buttonUsuario:hover {
+    background-color: #fffb00;
+  }
+
+
+  .labelEstilizada {
+    font-weight: bold;
+    color: wheat;
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+    margin-right: 10px; /* Espaçamento à direita do rótulo */
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  h2 {
+      color: gold; 
+      
+  }
+    
